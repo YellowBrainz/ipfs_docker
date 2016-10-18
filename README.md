@@ -60,9 +60,11 @@ following link:
 
 Another way to look at you node and see what's there you can open the web-application which offers a view
 on your host. For this open the following url in your favourite browser:
-```http://localhost:5001/webgui```
+```
+http://localhost:5001/webgui
+```
 
-Further information can be found at ```https://ipfs.io/docs/getting-started``` it is definitely worth a visit.
+Further information can be found at https://ipfs.io/docs/getting-started it is definitely worth a visit.
 
 Toon Leijtens
 (toonleijtens@yellowbrainz.com)
