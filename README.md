@@ -40,9 +40,11 @@ like so:
 ```docker exec ipfs_host ipfs <args...>```
 
 ## Adding new files to share
-```cp -r <something> $ipgs_staging```
-```chmod -R 777 #ipfs_staging```
-```docker exec ipfs_host ipfs add -r /export/<something>```
+```
+cp -r <something> $ipgs_staging
+chmod -R 777 #ipfs_staging
+docker exec ipfs_host ipfs add -r /export/<something>
+```
 
 Note that the /export folder is the one in the docker container mapped to the $ipfs_staging folder on the
 host computer running the docker.
